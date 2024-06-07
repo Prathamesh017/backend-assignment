@@ -1,0 +1,19 @@
+services:
+  grafana:
+    image: grafana/grafana-oss:latest 
+    ports:
+      - "3000:3000" # Map container port 3000 to host port 3000
+    restart: unless-stopped # Restart container automatically unless manually stopped
+    
+
+  loki:
+    image: grafana/loki:latest # Use latest tag by default (you can specify a version if needed)
+    ports:
+      - "3100:3100" # Map container port 3100 to host port 3100
+    restart: unless-stopped # Restart container automatically unless manually stopped
+    
+  my-redis2:
+    image: redis  # Image name
+    ports:
+      - "6379:6379"
+
