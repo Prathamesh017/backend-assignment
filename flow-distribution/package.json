@@ -1,0 +1,19 @@
+{
+  "name": "balanced-distribution-algorithm",
+  "version": "1.0.0",
+  "description": "a balanced distributed algorithm to handle correct flow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "author": "Prathamesh Thakare",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}

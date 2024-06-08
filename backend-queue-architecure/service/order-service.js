@@ -8,7 +8,7 @@ async function placeOrder (id,userId) {
       throw new Error("Product Not Found");
     }
     logger.info(`Order for product id ${id} Succefull`)
-    await new Promise((resolve, reject) => setTimeout(() => resolve(console.log(`Order Placed Successfully${userId}`)), 60000));
+    // await new Promise((resolve, reject) => setTimeout(() => resolve(console.log(`Order Placed Successfully${userId}`)), 60000));
     
   } catch (err) {
     console.log(err);

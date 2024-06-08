@@ -24,7 +24,7 @@ app.use(cors())
 
 
 app.get("/", (req,res) => {
-  res.send("Express + TypeScript Server");
+  res.send("Backend System With Queues");
 });
 
 app.use("/api/auth",authRouter)

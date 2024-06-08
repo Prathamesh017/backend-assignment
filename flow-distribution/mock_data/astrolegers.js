@@ -1,0 +1,22 @@
+export const  astrologers = [
+  { id: 1,  name: 'Astrologer A', rating: 4.5, total_connections: 10 },
+  { id: 2,  name: 'Astrologer B', rating: 4.7, total_connections: 5 },
+  { id: 3,  name: 'Astrologer C', rating: 4.6, total_connections: 8 },
+  { id: 4,  name: 'Astrologer D', rating: 4.8, total_connections: 2 },
+  { id: 5,  name: 'Astrologer E', rating: 4.3, total_connections: 3 },
+  { id: 6,  name: 'Astrologer F', rating: 4.9, total_connections: 1 },
+  { id: 7,  name: 'Astrologer G', rating: 4.1, total_connections: 7 },
+  { id: 8,  name: 'Astrologer H', rating: 4.4, total_connections: 12 },
+  { id: 9,  name: 'Astrologer I', rating: 4.0, total_connections: 9 },
+  { id: 10, name: 'Astrologer J', rating: 4.2, total_connections: 4 },
+  { id: 11, name: 'Astrologer K', rating: 3.9, total_connections: 6 },
+  { id: 12, name: 'Astrologer L', rating: 4.7, total_connections: 11 },
+  { id: 13, name: 'Astrologer M', rating: 4.5, total_connections: 8 },
+  { id: 14, name: 'Astrologer N', rating: 4.2, total_connections: 13 },
+  { id: 15, name: 'Astrologer O', rating: 4.6, total_connections: 7 },
+  { id: 16, name: 'Astrologer P', rating: 4.3, total_connections: 5 },
+  { id: 17, name: 'Astrologer Q', rating: 4.8, total_connections: 2 },
+  { id: 18, name: 'Astrologer R', rating: 4.1, total_connections: 14 },
+  { id: 19, name: 'Astrologer S', rating: 4.9, total_connections: 3 },
+  { id: 20, name: 'Astrologer T', rating: 3.8, total_connections: 10 }
+];
